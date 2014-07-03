@@ -1,0 +1,1 @@
+TuringMachine.exe < in_file.txt

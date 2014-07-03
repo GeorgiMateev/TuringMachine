@@ -19,3 +19,12 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio
+*.pdb
+*.suo
+*.sdf
+
+TuringMachine/Release
+TuringMachine/.svn
+ipch/

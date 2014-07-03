@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Abstractions">
+      <UniqueIdentifier>{046a16a6-56c0-446f-a264-81dbf6df75ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations">
+      <UniqueIdentifier>{301fb56c-3467-48f0-a148-97a2c0f7ed0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Definitions">
+      <UniqueIdentifier>{1211023e-31ae-49e3-a135-55c6307e7f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\IO">
+      <UniqueIdentifier>{53215c05-9dd7-4f82-bf64-ec10440d8095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Machine">
+      <UniqueIdentifier>{529484b3-bd97-4811-8f8e-7951f19efbbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Definitions\IO">
+      <UniqueIdentifier>{48951f55-d3d8-48c9-ae1a-88344503179b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Definitions\Machine">
+      <UniqueIdentifier>{4b5c5eb7-fd6e-4442-8bba-d2e14638f476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structures">
+      <UniqueIdentifier>{b975a35f-c471-4121-b10b-32a3dd70bf28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Utilities">
+      <UniqueIdentifier>{98ca976e-c6ce-4da3-baed-955f3d28d251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Definitions\Utilities">
+      <UniqueIdentifier>{46c334d9-ba60-4553-978f-b7d4dd112b70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProgramEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IOServiceFactory.cpp">
+      <Filter>Source Files\Definitions\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIOService.cpp">
+      <Filter>Source Files\Definitions\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonMethods.cpp">
+      <Filter>Source Files\Definitions\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="StandartIOService.cpp">
+      <Filter>Source Files\Definitions\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="TuringMachine.cpp">
+      <Filter>Source Files\Definitions\Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="IOService.h">
+      <Filter>Header Files\Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="Tape.h">
+      <Filter>Header Files\Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="TransitionFunction.h">
+      <Filter>Header Files\Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="RunStartToEndStrategy.cpp">
+      <Filter>Source Files\Definitions\Machine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileIOService.h">
+      <Filter>Header Files\Declarations\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IOServiceFactory.h">
+      <Filter>Header Files\Declarations\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="TuringMachine.h">
+      <Filter>Header Files\Declarations\Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMethods.h">
+      <Filter>Header Files\Declarations\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="StandartIOService.h">
+      <Filter>Header Files\Declarations\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="StlSet.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="StlTransitionFunction.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.h">
+      <Filter>Header Files\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLTape.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineStrategy.h">
+      <Filter>Header Files\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="RunStartToEndStrategy.h">
+      <Filter>Header Files\Declarations\Machine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+3 blank x y
+5 A B C D F
+1 F
+9
+A x B blank L
+A y F x R
+B x C y R
+B y C x R
+B blank D y R
+C x A y R
+C y F x S
+D y B x R
+D x A y L
+4 x blank blank y
